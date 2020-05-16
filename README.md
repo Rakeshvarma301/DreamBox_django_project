@@ -4,7 +4,7 @@ Features
 1) For Django 2.1 and Python 3.7
 2) Modern virtual environments with pipenv
 3) Styling with Bootstrap v4.1.3
-4) posts model
+4) posts, interviews, comments model
 5) username/password for log in/sign up
 
 First-time setup
@@ -17,9 +17,9 @@ First-time setup
 	$ pipenv install
 	$ pipenv shell
 
-Set up the initial migration for our custom user models in users and build the database.
+Set up the initial migration for our all models in one app and build the database.
 
-	(web) $ python manage.py makemigrations users
+	(web) $ python manage.py makemigrations
 	(web) $ python manage.py migrate
 
 Create a superuser:
