@@ -4,7 +4,7 @@ Features
 1) For Django 2.1 and Python 3.7
 2) Modern virtual environments with pipenv
 3) Styling with Bootstrap v4.1.3
-4) posts, interviews, comments model
+4) Accounts, posts, interviews, comments, and Search modules
 5) username/password for log in/sign up
 
 First-time setup
